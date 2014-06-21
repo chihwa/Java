@@ -54,6 +54,7 @@ public class SimpleSemaphore {
     		while(count == 0)
     			condition.await();
     		--count;
+    		condition.signal();
     	}finally{
     		lock.unlock();
     	}
@@ -70,6 +71,7 @@ public class SimpleSemaphore {
     		while(count==0)
     			condition.awaitUninterruptibly();
     		--count;
+    		condition.signal();
     	}finally{
     		lock.unlock();
     	}
