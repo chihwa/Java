@@ -1,0 +1,93 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (classFileParser.cpp:3494), pid=2252, tid=4044
+#  Error: ShouldNotReachHere()
+#
+# JRE version: 6.0_45-b06
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (20.45-b01 mixed mode windows-amd64 compressed oops)
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00000000005bd000):  JavaThread "Unknown thread" [_thread_in_vm, id=4044, stack(0x0000000001fc0000,0x00000000020c0000)]
+
+Stack: [0x0000000001fc0000,0x00000000020c0000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x00000000005bd000 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=4044, stack(0x0000000001fc0000,0x00000000020c0000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Dynamic libraries:
+0x0000000000400000 - 0x000000000042f000 	C:\Program Files\Java\jdk1.6.0\bin\javaw.exe
+0x00007ffd87790000 - 0x00007ffd8793a000 	C:\Windows\SYSTEM32\ntdll.dll
+0x00007ffd86db0000 - 0x00007ffd86eea000 	C:\Windows\system32\KERNEL32.DLL
+0x00007ffd84bd0000 - 0x00007ffd84cdf000 	C:\Windows\system32\KERNELBASE.dll
+0x00007ffd83710000 - 0x00007ffd83798000 	C:\Windows\system32\apphelp.dll
+0x00007ffd71320000 - 0x00007ffd7136f000 	C:\Windows\AppPatch\AppPatch64\AcGenral.DLL
+0x00007ffd869a0000 - 0x00007ffd86a47000 	C:\Windows\system32\msvcrt.dll
+0x00007ffd849b0000 - 0x00007ffd849db000 	C:\Windows\SYSTEM32\SspiCli.dll
+0x00007ffd86a50000 - 0x00007ffd86aa1000 	C:\Windows\system32\SHLWAPI.dll
+0x00007ffd870c0000 - 0x00007ffd87231000 	C:\Windows\system32\USER32.dll
+0x00007ffd87360000 - 0x00007ffd874d8000 	C:\Windows\system32\ole32.dll
+0x00007ffd85580000 - 0x00007ffd869a0000 	C:\Windows\system32\SHELL32.dll
+0x00007ffd84190000 - 0x00007ffd841ae000 	C:\Windows\SYSTEM32\USERENV.dll
+0x00007ffd87240000 - 0x00007ffd872e5000 	C:\Windows\system32\ADVAPI32.dll
+0x00007ffd7c900000 - 0x00007ffd7c91b000 	C:\Windows\SYSTEM32\MPR.dll
+0x00007ffd85010000 - 0x00007ffd85146000 	C:\Windows\system32\RPCRT4.dll
+0x00007ffd86f10000 - 0x00007ffd86f67000 	C:\Windows\SYSTEM32\sechost.dll
+0x00007ffd86ab0000 - 0x00007ffd86c86000 	C:\Windows\SYSTEM32\combase.dll
+0x00007ffd86f70000 - 0x00007ffd870b4000 	C:\Windows\system32\GDI32.dll
+0x00007ffd84b00000 - 0x00007ffd84b14000 	C:\Windows\SYSTEM32\profapi.dll
+0x00007ffd82fa0000 - 0x00007ffd8303f000 	C:\Windows\SYSTEM32\SHCORE.dll
+0x00007ffd87750000 - 0x00007ffd87784000 	C:\Windows\system32\IMM32.DLL
+0x00007ffd85390000 - 0x00007ffd854c9000 	C:\Windows\system32\MSCTF.dll
+0x000000006d8e0000 - 0x000000006e09c000 	C:\Program Files\Java\jdk1.6.0\jre\bin\server\jvm.dll
+0x00007ffd7c950000 - 0x00007ffd7c96f000 	C:\Windows\SYSTEM32\WINMM.dll
+0x00007ffd7c920000 - 0x00007ffd7c94a000 	C:\Windows\SYSTEM32\WINMMBASE.dll
+0x00007ffd84ce0000 - 0x00007ffd84d2a000 	C:\Windows\SYSTEM32\cfgmgr32.dll
+0x00007ffd83980000 - 0x00007ffd839a6000 	C:\Windows\SYSTEM32\DEVOBJ.dll
+0x000000006d850000 - 0x000000006d85e000 	C:\Program Files\Java\jdk1.6.0\jre\bin\verify.dll
+0x000000006d460000 - 0x000000006d487000 	C:\Program Files\Java\jdk1.6.0\jre\bin\java.dll
+0x000000006d8a0000 - 0x000000006d8b2000 	C:\Program Files\Java\jdk1.6.0\jre\bin\zip.dll
+0x00007ffd86ef0000 - 0x00007ffd86ef7000 	C:\Windows\system32\PSAPI.DLL
+
+VM Arguments:
+jvm_args: -Dfile.encoding=Cp1252 -Xbootclasspath:C:\adt-bundle-windows-x86_64-20131030\sdk\platforms\android-19\android.jar;C:\adt-bundle-windows-x86_64-20131030\sdk\add-ons\addon-google_apis-google-19\libs\effects.jar;C:\adt-bundle-windows-x86_64-20131030\sdk\add-ons\addon-google_apis-google-19\libs\usb.jar;C:\adt-bundle-windows-x86_64-20131030\sdk\add-ons\addon-google_apis-google-19\libs\maps.jar 
+java_command: edu.vuum.mocca.Main
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\Program Files\Java\jdk1.6.0
+PATH=C:/Program Files/Java/jdk1.6.0/bin/../jre/bin/server;C:/Program Files/Java/jdk1.6.0/bin/../jre/bin;C:/Program Files/Java/jdk1.6.0/bin/../jre/lib/amd64;C:\Program Files (x86)\PC Connectivity Solution\;C:\Program Files\Java\jdk1.6.0\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\cygwin64\bin;C:\adt-bundle-windows-x86_64-20131030\sdk\platform-tool;C:\apache-maven-3.2.1\bin;C:\apache-ant-1.9.3\bin;C:\Program Files (x86)\sbt\;C:\Ruby200-x64\bin;C:\adt-bundle-windows-x86_64-20131030\eclipse;
+USERNAME=ChiHwa
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 8 , 64 bit Build 9200 
+
+CPU:total 8 (4 cores per cpu, 2 threads per core) family 6 model 60 stepping 3, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, ht
+
+Memory: 4k page, physical 33423676k(29003328k free), swap 38404412k(32591968k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (20.45-b01) for windows-amd64 JRE (1.6.0_45-b06), built on Apr  1 2013 12:31:37 by "java_re" with MS VC++ 8.0 (VS2005)
+
+time: Sun Jun 22 02:10:34 2014
+elapsed time: 0 seconds
+
